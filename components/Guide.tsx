@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Button = () => {
+const Guide = () => {
   return (
     <div>
-      button
+      guide
     </div>
   )
 }
 
-export default Button
+export default Guide

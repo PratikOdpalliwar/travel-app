@@ -1,10 +1,19 @@
-import React from 'react'
+import Camp from '@/components/Camp'
+import Features from '@/components/Features'
+import GetApp from '@/components/GetApp'
+import Guide from '@/components/Guide'
+import Hero from '@/components/Hero'
 
 const Home = () => {
   return (
-    <div className='px-4 py-4 text-purple-700'>
-    HEllo WOrld
-    </div>
+   
+  <>
+  <Hero/>
+  <Camp/>
+  <Guide/>
+  <Features/>
+  <GetApp/>
+  </>
   )
 }
 
